@@ -1,4 +1,4 @@
-# CS5463_ESP8266_Medicao_Energ
+# CS5463_ESP8266_Medicao_Energia
 Descrição do projeto que desenvolvi no programa de mestrado em engenharia elétrica. Utiliza um chip dedicado para medição de energia elétrica (CS5463 da empresa Cirrus Logic) e o processamento é realizado por um módulo Wemos D1 Mini (composto por um ESP8266). A comunicação se dá sem fio (Wi-Fi) e faz uso do MQTT broker Mosquitto instalado em um computador de placa única Raspberry Pi. O projeto possui aplicação direta na medição das grandezas elétricas de uma central condicionadora de ar e de ambiente (temperatura e umidade) e através dos dados medidos se faz o diagnóstico da saúde do equipamento e condições de uso e mau uso. Um dashboard foi implementado utilizando-se Node-Red e é possível realizar o controle da central de ar em substituição ao controle remoto convencional (modificar temperatura, velocidade do ventilador, ligar e desligar, etc.) 
 
 
